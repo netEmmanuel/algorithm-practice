@@ -5,7 +5,7 @@
 //**Usage**
 //reversedString('hello world') = 'dlrow olleh'
 
-//First approach to reverse a string user the built in javascript reserve helper method
+//First approach to reverse a string using the built in javascript reserve helper method
 
 const reverseString = str =>{
         return str.split('').reverse().join('');
