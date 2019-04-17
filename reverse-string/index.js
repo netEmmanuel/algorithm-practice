@@ -7,6 +7,8 @@
 
 //First approach to reverse a string user the built in javascript reserve helper method
 
-const reversedString = str =>{
-        return str.split('').reduce().join('');
-},
+const reverseString = str =>{
+        return str.split('').reverse().join('');
+};
+
+module.exports = reverseString;
